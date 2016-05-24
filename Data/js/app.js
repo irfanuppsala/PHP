@@ -1,3 +1,4 @@
+
 /* Formatting function for row details - modify as you need */
 function format ( d ) {
     // `d` is the original data object for the row
@@ -19,7 +20,7 @@ function format ( d ) {
  
 $(document).ready(function() {
     var table = $('#example').DataTable( {
-        "ajax": "objects.txt",
+        "ajax": "../data/objects.txt",
         "columns": [
             {
                 "className":      'details-control',
